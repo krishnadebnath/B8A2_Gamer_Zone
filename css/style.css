@@ -116,4 +116,174 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 }
+/*online gamer section start*/
+.grid-container{
+    display: flex;
+    padding: 50px;
+  gap: 15px;
+    max-width: 1400px;
+    margin: 50 auto 0;
+    min height: 400px;
+}
+.game-text{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    
+    font-weight: 700;
+    line-height: normal;
+}
+.game-design{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+ -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.collection{
+    color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+}
+.single-product{
+width: 30%;
+border: 1px solid tomato;
+display: flexbox;
+width: 342px;
+height: 400px;
+justify-content: center;
+flex-shrink: 0;
+border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+/*card section*/
+.card-container{
+    padding: 70px;
+    max-width: 1400px;
+    min-height: 50px;
+      display: flex;
+      
+}
+.card-text{
+text-align: center;
+gap: 0px;
+}
+.card-text h1{
+    text-align: center;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+color: #F948B2;
+    }
+    .card-color{
+        color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+text-align: center;
+    }
+    
+.card-img1{
+    width: 30%;
+    width: 634.833px;
+    height: 650px;
+    border-radius: 8px;
+border: 10px solid #FFF;
+background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+}
+.card-img2{
+    width: 1920px;
+    height: 5927px;
+    border-top: 100px;
+    margin-left: 50px;
+}
 
+
+/*icon section starts*/
+
+.icon-container{
+    justify-content: center;
+    max-width: 1400px;
+min-height: 50px;
+padding: 50px;
+display:grid;
+
+}
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background:pink;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0,1);
+transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+width: 200px;
+}
+.wrapper .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 80px;
+
+}
+.wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background: #4267B2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background: #4267B2;
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background: #4267B2;
+}
+.wrapper .button .icon i{
+    font-size: 15px;
+    line-height: 80px;
+}
+
+.wrapper .button span{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 80px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/* footer start*/
+.footer{
+   text-align: center;
+    width: 1920px;
+height: 636px;
+background: #0B0223;
+display: flex;
+}
+
+.footer p{
+    font-size: 45px;
+}
+.footer img{
+    width: 86.041px;
+    height: 80px;
+}
+.Game{
+    color: #FF42A5;
+}
