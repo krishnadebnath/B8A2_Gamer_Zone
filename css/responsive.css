@@ -14,7 +14,19 @@
      .nav-items-container a{
         margin-top: 20px;
         }
-
+/*banner design start*/
+.banner-container{
+            flex-direction: column;
+        }
+.banner-text,.banner-img{
+width: 100%;
+}
+.banner-text h1{
+    font-size: 50px;
+}
+.banner-text p{
+    font-size: 30px;
+}
 
 
 }
