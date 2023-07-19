@@ -210,6 +210,7 @@ background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repe
 min-height: 50px;
 padding: 50px;
 display:grid;
+gap: 20px;
 
 }
 
