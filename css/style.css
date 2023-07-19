@@ -150,7 +150,6 @@ line-height: 30px;
 }
 .single-product{
 width: 30%;
-border: 1px solid tomato;
 display: flexbox;
 width: 342px;
 height: 400px;
@@ -270,21 +269,43 @@ width: 200px;
 
 
 /* footer start*/
-.footer{
-   text-align: center;
-    width: 1920px;
-height: 636px;
-background: #0B0223;
-display: flex;
+
+div > ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    
 }
 
-.footer p{
-    font-size: 45px;
+div > h2{
+    justify-content: center;
+    margin-left: 600px;
 }
-.footer img{
-    width: 86.041px;
-    height: 80px;
+.social{
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-right: 60px;
+ 
 }
-.Game{
-    color: #FF42A5;
+.footer{
+    min-height: 100px;
+    background: #0B0223;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 50px;
+    text-decoration: none;
+    height: 100%;
+    padding-bottom: 50px;
+   
+}
+.footer-description{
+    align-items: center;
+    margin-left: 420px;
+    
 }
