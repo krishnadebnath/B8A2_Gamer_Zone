@@ -1,32 +1,144 @@
-@media screen and (max-width:400px) {
-     .nav-container{
-
-
+/* Responsive for Small Devices */
+@media screen and (max-width:576px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
         flex-direction: column;
-     }
-
-     .nav-items-container{
-
+        justify-content: center;
+        align-items: center;
+    }
+    .intro{
         flex-direction: column;
+        gap: 10px;
+    }
+    .goat{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+        background-size: 510px 385px;
+    }
+    .first-img{
+        margin-top: 15px;
+        width: 450px;
+        height: 550px;
+    }
+    .first-img img{
         width: 100%;
-     }
+        height: 600px;
+    }
+    .primary-info{
+        padding: 0;
+    }
+    .overlay {
+        width: 100%;
+        height: 90%;
+    }
+    .online-game-img{
+        flex-direction: column;
+        align-items: center;
+    }
+    .play-instantly{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .play-img > img{
+        width: 90%;
+        margin: 0;
+    }
+    .talking-angela{
+        bottom: 150px;
+        right: 120px;
+    }
+    .angela{
+        height: 50%;
+        width: 55%;
+    }
+    .flex-btn{
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+    .button > button{
+        width: 130px;
+        height: 75px;
+        font-size: 12px;
+    }
+    footer{
+        padding-top: 50px;
+    }
+    .links{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .more-links{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-     .nav-items-container a{
-        margin-top: 20px;
-        }
-/*banner design start*/
-.banner-container{
-            flex-direction: column;
-        }
-.banner-text,.banner-img{
-width: 100%;
 }
-.banner-text h1{
-    font-size: 50px;
-}
-.banner-text p{
-    font-size: 30px;
-}
-
-
+/* Responsive for Medium Devices */
+@media screen and (min-width: 576px) and (max-width: 970px) {
+    nav{
+        justify-content: space-around;
+        align-items: center;
+    }
+    .GOAT{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+        background-size: 615px 385px;
+        gap: 10px;
+    }
+    .first-img{
+        margin-top: 15px;
+        width: 550px;
+        height: 650px;
+    }
+    .first-img img{
+        width: 90%;
+        height: 600px;
+    }
+    .online-game-img{
+        margin-top: 70px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .play-instantly{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .play-img > img{
+        width: 90%;
+        margin: 0;
+    }
+    .angela{
+        height: 50%;
+        width: 55%;
+    }
+    .talking-angela{
+        right: 200px;
+    }
+    .flex-btn{
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+    .button > button{
+        width: 170px;
+        height: 75px;
+        font-size: 14px;
+    }
+    .footer{
+        padding-top: 70px;
+    }
+    .links{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .more-links{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
