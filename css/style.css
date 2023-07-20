@@ -32,8 +32,9 @@ nav{
 }
 .first-button{
     height: 45px;
+    border-radius: 8px;
 }
-/* Main Section */
+
 /* G.O.A.T. Section */
 .goat{
     margin-top: 100px;
