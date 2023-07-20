@@ -1,4 +1,3 @@
-
 *{
     font-family: 'Work Sans', sans-serif;
 }
@@ -34,9 +33,8 @@ nav{
     height: 45px;
     border-radius: 8px;
 }
-
-/* play like Section */
-.goat{
+/*play like section*/
+.GOAT{
     margin-top: 100px;
     background-image: url('images/Group\ 14.png');
     background-repeat: no-repeat;
@@ -173,7 +171,6 @@ nav{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
-    gap: 10px;
 }
 .button-sec{
     margin-bottom: 100px;
@@ -227,7 +224,7 @@ footer{
     font-weight: 500;
     text-decoration: none;
 }
-.play-games{
+.last-line{
     color: rgba(255, 255, 255, 0.60);
     font-size: 15px;
     font-weight: 500;
